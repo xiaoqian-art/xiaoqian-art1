@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Covido</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/font-awesome.css">
+       <link rel="stylesheet" href="css/owl.carousel.min.css"> 
+      <link rel="stylesheet" href="css/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="css/baguetteBox.min.css">
+      
+	  <script type="text/javascript">
+              document.documentElement.style.fontSize = document.documentElement.clientWidth /768*100 + 'px';
+      </script>
+      
+      <script src="js/echarts.min.js"></script>
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
+      </div>
+      <!-- end loader -->
+      <!-- top -->
+                    <!-- header -->
+         <header class="header-area">
+            <div class="left">
+               <a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </div>
+            <div class="right">
+               <a href="Javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a>
+            </div>
+            <div class="container">
+               <div class="row d_flex">
+                  <div class="col-sm-3 logo_sm">
+                     <div class="logo">
+                        <a href="index.html"></a>
+                     </div>
+                  </div>
+                  <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-9">
+                     <div class="navbar-area">
+                        <nav class="site-navbar">
+                           <ul>
+                              <li><a class="active" href="index.html">首页</a></li>
+                              <li><a href="about.html">关于病毒情况</a></li>
+                              <li><a href="action.html">采取措施</a></li>
+                              <li><a href="index.html" class="logo_midle">covido-19</a></li>
+                              <li><a href="news.html">症状</a></li>
+                              <li><a href="doctores.html">医生建议</a></li>
+                              <li><a href="#">联系</a></li>
+                           </ul>
+                           <button class="nav-toggler">
+                           <span></span>
+                           </button>
+                        </nav>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </header>
+      <!-- end header -->
+            <div class="full_bg">
+      <!-- header inner -->
+         <div class="section">
+            <!-- carousel code -->
+            <div id="banner1" class="carousel slide slider_main">
+               <ol class="carousel-indicators ">
+                  <li data-target="#banner1" data-slide-to="0" class="indicator-li-1">01</li>
+                  <li data-target="#banner1" data-slide-to="1" class="">02</li>
+                  <li data-target="#banner1" data-slide-to="2" class="active">03</li>
+               </ol>
+               <div class="carousel-inner">
+                  <!-- first slide -->
+                  <div class="carousel-item active">
+                     <div class="carousel-caption cuplle">
+                        <div class="container">
+                           <div class="row">
+                              <div class="col-md-8">
+                                 <div class="photog">
+									 
+                                    <h1 style="color: aliceblue; font-size: 50px; margin-top: 100px; margin-right: 100px;">重视自身健康<br>做好自我防护</h1>
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- second slide -->
+                  <div class="carousel-item">
+                     <div class="carousel-caption cuplle">
+                        <div class="container">
+                           <div class="row">
+                              <div class="col-md-8">
+                                <div class="photog">
+                                    <h1  style="color: aliceblue; font-size: 50px; margin-top: 100px; margin-right: 100px;">—分预防胜于<br>十二分治疗</h1>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- third slide -->
+                  <div class="carousel-item">
+                     <div class="carousel-caption cuplle">
+                        <div class="container">
+                           <div class="row">
+                              <div class="col-md-8">
+                                <div class="photog">
+                                    <h1 style="color: aliceblue; font-size: 50px; margin-top: 100px; margin-right: 100px;">依法治疫<br>科学防疫</h1>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- controls -->
+               <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+               <i class="fa fa-angle-left" aria-hidden="true"></i>
+               <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+               <i class="fa fa-angle-right" aria-hidden="true"></i>
+               <span class="sr-only">Next</span>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- end banner -->
+      <!-- about -->
+      <div class="about">
+         <div class="container_width">
+            <div class="row d_flex">
+                   <div class="col-md-7">
+                  <div id="main" style="width: 600px;height:400px;"></div>
+                      <script type="text/javascript">
+                        // 基于准备好的dom，初始化echarts实例
+                        var myChart = echarts.init(document.getElementById('main'));
+                  
+                        // 指定图表的配置项和数据
+                        var option = {
+                      title: {
+                          text: '成都疫情趋势'
+                      },
+                      tooltip: {
+                          trigger: 'axis'
+                      },
+                      legend: {
+                          data: ['新增本土','无症状']
+                      },
+                      grid: {
+                          left: '3%',
+                          right: '4%',
+                          bottom: '3%',
+                          containLabel: true
+                      },
+                      toolbox: {
+                          feature: {
+                              saveAsImage: {}
+                          }
+                      },
+                      xAxis: {
+                          type: 'category',
+                          boundaryGap: false,
+                          data: ['21', '22', '23', '24', '25', '26', '27','28']
+                      },
+                      yAxis: {
+                          type: 'value'
+                      },
+                      series: [
+                          {
+                              name: '新增本土',
+                              type: 'line',
+                              stack: '总量',
+                              data: [173, 185, 144, 77, 101, 92, 104,122],
+                               symbol: "none", //去除小圆点
+                              itemStyle : { 
+                                  normal : { 
+                                      color:'#35BD39', //改变折线点的颜色
+                                      lineStyle:{ 
+                                          color:'#35BD39', //改变折线颜色
+                                          width:4,//改变粗细  
+                                      } 
+                                  } 
+                              },
+                          },
+                          {
+                              name: '无症状',
+                              type: 'line',
+                              stack: '总量',
+                              data: [184, 288, 367, 475, 594, 635, 764,648],
+                              symbol: "none", //去除小圆点
+                              itemStyle : { 
+                                  normal : { 
+                                      color:'#E16757', //改变折线点的颜色
+                                      lineStyle:{ 
+                                          color:'#E16757', //改变折线颜色
+                                          width:4,//改变粗细  
+                                      } 
+                                  } 
+                              },
+                          },
+                      ]
+                  };
+                  
+                    myChart.setOption(option);
+                      </script>
+               </div>
+               <div class="col-md-5">
+                  <div class="about_img text_align_center">
+                     <figure><img src="images/about.png" alt="#"/></figure>
+                  </div>
+               </div>
+              
+            </div>
+         </div>
+      </div>
+	  
+      <!-- end about -->
+	  
+	  <div class="coronata">
+	           <div class="container">
+	              <div class="row d_flex grid">
+	                 <div class="col-md-7">
+	                    <div class="biaoge" style="width:100%; height:50vh" id="chartmain_bing"></div>
+	                    <script type="text/javascript">
+	                    	option = {
+	                    		title: {
+	                    			text: '疫情数据情况统计',
+	                    			subtext: '',
+	                    			left: 'right',
+	                    			textStyle: {
+	                    				color: '#fff',
+	                    				fontSize: 12
+	                    			}
+	                    		},
+	                    		tooltip: {
+	                    			trigger: 'item',
+	                    			formatter: '{a} <br/>{b} : {c} ({d}%)'
+	                    		},
+	                    		legend: {
+	                    			
+	                    			type: 'scroll',
+	                    			orient: 'vertical',
+	                    			right: 10,
+	                    			top: 40,
+	                    			bottom: 20,
+	                    			left: 'right',
+	                    			data: ['成都', '德阳', '宜宾', '绵阳', '内江'],
+	                    			textStyle: {
+	                    				color: '#fff',
+	                    				fontSize: 12
+	                    			}
+	                    
+	                    		},
+	                    		grid:{
+	                    			x:'-10%',
+	                    			y:40,
+	                    			x2:20,
+	                    			y2:20,
+	                    		},
+	                    		color : [ '#09d0fb', '#f88cfb', '#95f8fe', '#f9f390',  '#ecfeb7' ],
+	                    		series: [
+	                    			{
+	                    				type: 'pie',
+	                    				radius: '65%',
+	                    				center: ['50%', '50%'],
+	                    				selectedMode: 'single',
+	                    				data: [
+	                    					{value: 2014, name: '成都'},
+	                    					{value: 231, name: '德阳'},
+	                    					{value: 290, name: '宜宾'},
+	                    					{value: 206, name: '绵阳'},
+	                    					{value: 350, name: '内江'}
+	                    				],
+	                    				emphasis: {
+	                    					itemStyle: {
+	                    						shadowBlur: 10,
+	                    						shadowOffsetX: 0,
+	                    						shadowColor: 'rgba(0, 0, 0, 0.5)'
+	                    					}
+	                    				}
+	                    			}
+	                    		]
+	                    	};
+	                    
+	                    				var myChart = echarts.init(document.getElementById('chartmain_bing'));
+	                    				
+	                    				myChart.setOption(option);
+	                    
+	                    </script>
+	                 </div>
+	  					
+	                 <div class="col-md-5 oder1">
+	                    <div class="titlepage text_align_left">
+	                       <h2>四川疫情严重地区占比</h2><br><h3>截止日期11月28日</h3>
+	                    </div>
+	                 </div>
+	              </div>
+	           </div>
+	        </div>
+	  
+	  <div class="coronata">
+	           <div class="container">
+	              <div class="row d_flex grid">
+	                 <div class="col-md-7">
+	                    <div class="coronata_img text_align_center">
+	                       <figure><img src="images/地图.png" alt="#"/></figure>
+	                    </div>
+	                 </div>
+	                 <div class="col-md-5 oder1">
+	                    <div class="titlepage text_align_left">
+	                       <h3>新增本土确诊</h3>
+	                       <h4>122人</h4>
+                            <div class="zi"><span class="span1">截止时间：</span><span>2022/11/28</span></div>
+	                       
+	  						<h3>新增无症状</h3>
+	  						<h4>648人</h4>
+                            <div class="zi"><span class="span1">截止时间：</span><span>2022/11/28</span></div>
+	  						
+	  						<h3>现有本土确诊</h3>
+	  						<h4>2014人</h4>
+	  						<div class="zi"><span class="span1">截止时间：</span><span>2022/11/28</span></div>
+	  						
+	  						<h3>高风险区</h3>
+	  						<h4>635个</h4>
+	  						<div class="zi"><span class="span1">截止时间：</span><span>2022/11/28</span></div>
+	                    </div>
+	                 </div>
+	              </div>
+	           </div>
+	        </div>
+	  
+	  <div class="coronata">
+	           <div class="container">
+	              <div class="row d_flex grid">
+	                 <div class="col-md-7">
+	                    <div id="1" style="width: 600px;height:400px;"></div>
+	                        <script type="text/javascript">
+	                          // 基于准备好的dom，初始化echarts实例
+	                          var myChart = echarts.init(document.getElementById('1'));
+	                    
+	                          // 指定图表的配置项和数据
+	                    var option;
+	                    
+	                    option = {
+	                      title: {
+	                        text: '症状热搜'
+	                      },
+	                      tooltip: {
+	                        trigger: 'axis',
+	                        axisPointer: {
+	                          type: 'shadow'
+	                        }
+	                      },
+	                      legend: {},
+	                      grid: {
+	                        left: '3%',
+	                        right: '4%',
+	                        bottom: '3%',
+	                        containLabel: true
+	                      },
+	                      xAxis: {
+	                        type: 'value',
+	                        boundaryGap: [0, 0.01]
+	                      },
+	                      yAxis: {
+	                        type: 'category',
+	                        data: [
+	                          '发烧',
+	                          '咳嗽咳痰',
+	                          '鼻塞流鼻涕',
+	                          '咽干咽痛',
+	                          '肠胃不适',
+	                          '干咳',
+	                          '味觉下降',
+	                          '身体酸痛',
+	                          '嗅觉下降',
+	                          '耳鸣',
+	                          '身体乏力',
+	                          '恶心呕吐',
+	                          '听力下降'
+	                        ]
+	                      },
+	                      series: [
+	                        {
+	                          type: 'bar',
+	                          data: [
+	                            1271831, 440622, 136996, 121046, 53240, 37830, 31813, 31456, 27662,
+	                            15355, 11173, 4012, 239
+	                          ]
+	                        }
+	                      ]
+	                    };
+	                    
+	                    option && myChart.setOption(option);
+	                        </script>
+	                 </div>
+	                 <div class="col-md-5 oder1">
+	                    <div class="titlepage text_align_left">
+	                       <h2>近</h2><br>
+	                       <h2>期</h2><br>
+	                       <h2>症</h2><br>
+	                       <h2>状</h2><br>
+	                       <h2>热</h2><br>
+	                       <h2>搜</h2><br>
+	                       <h2>榜</h2><br>
+	                    </div>
+	                 </div>
+	              </div>
+	           </div>
+	        </div>
+	  
+     <div class="coronata">
+              <div class="container">
+                 <div class="row d_flex grid">
+                    <div class="col-md-7">
+                       <div id="2" style="width: 600px;height:400px;"></div>
+                           <script type="text/javascript">
+                             // 基于准备好的dom，初始化echarts实例
+                             var myChart = echarts.init(document.getElementById('2'));
+                       
+                             // 指定图表的配置项和数据
+                       var option;
+                       
+                       option = {
+                         title: {
+                           text: '物资热搜'
+                         },
+                         tooltip: {
+                           trigger: 'axis',
+                           axisPointer: {
+                             type: 'shadow'
+                           }
+                         },
+                         legend: {},
+                         grid: {
+                           left: '3%',
+                           right: '4%',
+                           bottom: '3%',
+                           containLabel: true
+                         },
+                         xAxis: {
+                           type: 'value',
+                           boundaryGap: [0, 0.01]
+                         },
+                         yAxis: {
+                           type: 'category',
+                           data: [
+                             '布洛芬',
+                             '抗原',
+                             '口罩',
+                             '连花清瘟',
+                             '对乙酰氨基酚',
+                             '复方氨酚烷胺',
+                             '蒲地蓝',
+                             '藿香正气',
+                             '板蓝根',
+                             '盐酸氨溴索',
+                             '蜜炼川贝枇杷膏',
+                             '氯雷他定',
+                             '阿司匹林'
+                           ]
+                         },
+                         series: [
+                           {
+                             type: 'bar',
+                             data: [
+                               465614, 234184, 159970, 142315, 127832, 66613, 55373, 28536, 25293,
+                               21437, 17190, 16055, 14059
+                             ]
+                           }
+                         ]
+                       };
+                       
+                       option && myChart.setOption(option);
+                           </script>
+                    </div>
+                    <div class="col-md-5 oder1">
+                       <div class="titlepage text_align_left">
+                          <h2>近</h2><br>
+                          <h2>期</h2><br>
+                          <h2>物</h2><br>
+                          <h2>资</h2><br>
+                          <h2>热</h2><br>
+                          <h2>搜</h2><br>
+                          <h2>榜</h2><br>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+   
+        <!-- protect -->
+      <div class="protect">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <h2>如何做好新冠疫情自我防护措施</h2>
+					 <p>疫情中病毒传播无处不在，保护好自己和家人就是为社会做贡献。那么在疫情中如何保护好自己不受病毒感染呢。</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+           <div class="protect_bg">
+         <div class="container">
+             <div class="row">
+               <div class="col-md-12">
+                  <!--  Demos -->
+                  <div class="owl-carousel owl-theme">
+                     <div class="item">
+                        <div class="protect_box text_align_center">
+                          <div class="desktop">
+                             <i><img src="images/pro1.png" alt="#"/></i>
+                           <h3> 戴口罩</h3>
+                           <span> 佩戴口罩，在外出或者公共场合，比如公共汽车、地铁站、医院，要正规佩戴一次性医用口罩，四个小时要更换一次，戴口罩之前要先分清楚口罩的内面和外面，要学会正确使用医用口罩。</span>
+                          </div>
+                           
+                        </div>
+                     </div>
+                     <div class="item">
+                          <div class="protect_box text_align_center">
+                          <div class="desktop">
+                             <i><img src="images/pro2.png" alt="#"/></i>
+                           <h3> 个人卫生</h3>
+                           <span> 注意个人卫生，要保持勤洗手以及良好的呼吸道卫生习惯，使用肥皂、洗手液用流动水洗手，要保持良好的呼吸道习惯，在咳嗽、打喷嚏时用纸巾、毛巾、手臂挡住口鼻处，避免面向他人。</span>
+                          </div>
+                           
+                        </div>
+                     </div>
+                     <div class="item">
+                         <div class="protect_box text_align_center">
+                          <div class="desktop">
+                             <i><img src="images/锻炼.png" alt="#"/></i>
+                           <h3> 坚持锻炼</h3>
+                           <span> 增加体质免疫力，保持环境的清洁与通风。增加体质和免疫力要保证营养均衡、适量运动、作息规律，还要避免过度劳累，每天开窗通风要不少于三次，每次20-30分钟。</span>
+                          </div>
+                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+          </div>
+      </div>
+         </div>
+      </div>
+		 
+	  
+<!-- update -->
+<div class="update">
+   <div class="cevery_white">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="cevery_bg">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <form id="colof" class="form_subscri">
+                  
+                  
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/baguetteBox.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
